@@ -1,12 +1,17 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps } from '@fati-ui/react'
+import { Box, BoxProps, Text } from '@fati-ui/react'
 
 export default {
   title: 'Form/Box',
   component: Box,
 
   args: {
-    children: <span style={{ color: 'white' }}>Box</span>,
+    children: (
+      <Text>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+        aspernatur.
+      </Text>
+    ),
   },
 } as Meta<BoxProps>
 
