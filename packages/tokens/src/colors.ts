@@ -15,4 +15,11 @@ export const colors = {
   fati500: '#00875F',
   fati700: '#015F43',
   fati900: '#00291D',
+
+  red500: '#ef4444',
+  red600: '#dc2626',
+  red700: '#b91c1c',
+  red800: '#991b1b',
+  red900: '#991b1b',
+  red950: '#450a0a',
 }

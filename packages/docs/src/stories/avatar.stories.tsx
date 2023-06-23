@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { Avatar, AvatarProps } from '@fati-ui/react'
 
 export default {
-  title: 'Form/Avatar',
+  title: 'Display/Avatar',
   component: Avatar,
   args: {
     src: 'https://github.com/gustavosalviato.png',
