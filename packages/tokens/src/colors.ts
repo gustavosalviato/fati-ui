@@ -22,4 +22,6 @@ export const colors = {
   red800: '#991b1b',
   red900: '#991b1b',
   red950: '#450a0a',
+
+  primary: '#6366f1',
 }
