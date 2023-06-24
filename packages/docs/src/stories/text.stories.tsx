@@ -7,7 +7,7 @@ export default {
 
   args: {
     children:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolorum.',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolorum...',
     size: 'md',
   },
   argTypes: {
