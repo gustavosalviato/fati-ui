@@ -27,6 +27,7 @@
     "@fati-ui/react": "*",
     "@fati-ui/tokens": "*",
     "@fati-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^7.0.23",
     "@storybook/builder-vite": "^7.0.22",
     "lucide-react": "^0.248.0",
     "polished": "^4.2.2",

@@ -21,7 +21,7 @@ export default {
 
 export const Default: StoryObj<TextInputProps> = {}
 
-export const WithICon: StoryObj<TextInputProps> = {
+export const Icon: StoryObj<TextInputProps> = {
   args: {
     icon: <Search />,
   },
