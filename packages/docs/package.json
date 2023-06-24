@@ -1,11 +1,12 @@
 {
+  "homepage": "http://gustavosalviato.github.io/fati-ui",
   "name": "@fati-ui/docs",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^5.0.0",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.22",
     "vite": "^4.3.9"
