@@ -6,13 +6,14 @@ export default {
   component: Heading,
 
   args: {
-    children: <Heading>Lorem ipsum</Heading>,
+    children: 'Heading text',
+    size: 'md',
   },
-  parameters: {
-    docs: {
-      descriptions: {
-        story:
-          'The title by default will always be `h2` but we can change it with `as` property',
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
+      control: {
+        type: 'inline-radio',
       },
     },
   },

@@ -6,7 +6,14 @@ export default {
   component: Avatar,
   args: {
     src: 'https://github.com/gustavosalviato.png',
-    alt: 'Gusavo Henrique',
+    alt: 'Gustavo Henrique',
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
   },
 } as Meta<AvatarProps>
 

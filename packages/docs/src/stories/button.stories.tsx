@@ -2,13 +2,34 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@fati-ui/react'
 import { ArrowRight } from 'lucide-react'
 export default {
-  title: 'Display/Button',
+  title: 'Form/Button',
   component: Button,
 } as Meta<ButtonProps>
 
 export const Default: StoryObj<ButtonProps> = {
   args: {
-    children: <>Send</>,
+    children: 'Send',
+    variant: 'primary',
+    size: 'medium',
+  },
+  argTypes: {
+    variant: {
+      options: ['primary', 'secondary', 'tertiary'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+
+    size: {
+      options: ['small', 'medium'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+
+    onClick: {
+      action: 'clicked',
+    },
   },
 }
 
