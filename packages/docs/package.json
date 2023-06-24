@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "build-storybook",
-    "deploy-storybook": "gh-pages -d storybook-static"
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "build-storybook"
   },
   "keywords": [],
   "author": "",
