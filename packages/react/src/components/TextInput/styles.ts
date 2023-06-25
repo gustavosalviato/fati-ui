@@ -2,13 +2,27 @@ import { styled } from '../../styles'
 
 export const TextInputContainer = styled('div', {
   backgroundColor: '$gray900',
-  padding: '$3 $4',
   borderRadius: '$sm',
   boxSizing: 'border-box',
   border: '2px solid $gray900',
   display: 'flex',
   alignItems: 'center',
   gap: '$2',
+
+  variants: {
+    size: {
+      sm: {
+        padding: '$2 $3',
+      },
+      md: {
+        padding: '$3 $4',
+      },
+    },
+  },
+
+  defaultVariants: {
+    size: 'md',
+  },
 
   '&:has(input:focus)': {
     borderColor: '$gray100',
@@ -43,7 +57,7 @@ export const Input = styled('input', {
     cursor: 'not-allowed',
   },
 
-  '&:placehholder': {
+  '&::placehholder': {
     color: '$gray800',
   },
 })

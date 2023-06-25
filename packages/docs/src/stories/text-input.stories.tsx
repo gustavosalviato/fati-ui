@@ -19,7 +19,11 @@ export default {
   ],
 } as Meta<TextInputProps>
 
-export const Default: StoryObj<TextInputProps> = {}
+export const Default: StoryObj<TextInputProps> = {
+  args: {
+    placeholder: 'You password',
+  },
+}
 
 export const Icon: StoryObj<TextInputProps> = {
   args: {
